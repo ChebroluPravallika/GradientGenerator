@@ -86,10 +86,13 @@ class GradientGenerator extends Component {
                 onChange={this.onChangeColor1}
                 value={color1}
                 style={{
-                  height: '30px',
-                  width: '60px',
-                  marginRight: '10px',
+                  height: '40px',
+                  width: '90px',
                   padding: '0px',
+                  backgroundColor: 'transparent',
+                  border: 'none',
+                  borderRadius: '10px',
+                  outline: 'none',
                 }}
               />
             </div>
@@ -106,9 +109,13 @@ class GradientGenerator extends Component {
                 onChange={this.onChangeColor2}
                 value={color2}
                 style={{
-                  height: '30px',
-                  width: '60px',
+                  height: '40px',
+                  width: '90px',
                   padding: '0px',
+                  backgroundColor: 'transparent',
+                  border: 'none',
+                  borderRadius: '10px',
+                  outline: 'none',
                 }}
               />
             </div>
