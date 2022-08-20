@@ -21,6 +21,7 @@ export const DivContainer = styled.div`
 export const Para = styled.p`
   color: #ffffff;
   font-family: 'Roboto';
+  text-align: center;
 `
 export const Button = styled.button`
   background-color: #00c9b7;
